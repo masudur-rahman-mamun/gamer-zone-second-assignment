@@ -438,6 +438,15 @@
      background: #FFF;
  }
 
+ /* Hover */
+ .game-imgs:hover {
+     border: 2px solid #F948B2;
+ }
+
+ .game-imgs p:hover {
+     color: #F948B2;
+ }
+
  .game-imgs img {
      width: 35px;
      height: 35px;
@@ -448,4 +457,92 @@
      color: #0B0223;
      font-size: 12px;
      font-weight: 600;
+ }
+
+ /* For Footer Section */
+ .footer {
+     width: 100%;
+     background: #0B0223;
+     padding: 4rem 0rem
+ }
+
+ .footer-Section {
+     width: 60%;
+     margin: 0 auto;
+ }
+
+ .footer-container {
+     text-align: center;
+
+ }
+
+ .footer-img {
+     padding-bottom: 1rem;
+ }
+
+ .footer-img img {
+     width: 3.3rem;
+     padding-right: 1rem;
+
+ }
+
+ .footer-logo {
+     font-size: 35px;
+     font-weight: 600;
+     color: #FFF;
+ }
+
+ .spn-sec {
+     color: #F948B2;
+     margin: -9px;
+ }
+
+ .footer-des ul {
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 1rem;
+     width: 80%;
+     margin: 0 auto;
+
+ }
+
+ .footer-des ul li {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     list-style: none;
+ }
+
+ .footer-icon ul {
+     display: flex;
+     justify-content: center;
+ }
+
+ .footer-icon ul li {
+     list-style: none;
+     margin: 0px 10px;
+ }
+
+ .footer-title ul {
+     display: flex;
+     justify-content: space-around;
+     padding: 1rem 0rem;
+     width: 65%;
+     margin: 0 auto;
+
+ }
+
+ .footer-title ul li {
+     color: rgba(255, 255, 255, 0.60);
+     font-size: 14px;
+     font-weight: 400;
+     list-style: none;
+
+ }
+
+ .footer-copy p {
+     color: rgba(255, 255, 255, 0.60);
+     text-align: center;
+     font-size: 14px;
+     font-weight: 400;
  }
