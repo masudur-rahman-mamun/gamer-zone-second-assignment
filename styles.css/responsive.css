@@ -1,0 +1,259 @@
+ .hide {
+     display: none;
+ }
+
+ /* Reasponsive */
+
+ @media screen and (max-width: 425px) {
+     body {
+         width: 100%;
+         margin: 0 auto;
+     }
+
+     .header-section,
+     nav,
+     .banner-section,
+     .gamer-section,
+     .online-games-container,
+     .play-one,
+     .careers-container {
+         flex-direction: column;
+     }
+
+     header,
+     .banner-container {
+         width: 80%;
+         margin: 0 auto;
+     }
+
+     .logo-items {
+         margin: 0 auto;
+     }
+
+     .logo-items img {
+         width: 3rem;
+     }
+
+     .logo-items span {
+         font-size: 35px;
+     }
+
+     .spn-primary {
+         margin: -9px;
+     }
+
+
+     /* Footer Section */
+     .footer {
+         padding: 1rem 0rem;
+     }
+
+     .footer-des ul {
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(2, 3fr);
+     }
+
+     .footer-des ul li {
+         padding: .5rem;
+         font-size: 14px;
+     }
+
+     .footer-icon ul {
+         display: grid;
+         grid-template-columns: repeat(3, 2fr);
+     }
+
+     .footer-icon ul li {
+         margin: .5rem;
+     }
+
+     .footer-title ul {
+         width: 80%;
+         display: grid;
+         grid-template-columns: repeat(2, 2fr);
+     }
+
+     .footer-title ul li {
+         font-size: 14px;
+         margin: .5rem;
+     }
+
+     .footer-copy p {
+         font-size: 10px;
+     }
+
+     /* For Banner Section */
+     .banner-descrip {
+         padding-bottom: 1rem;
+         margin-top: 2rem;
+     }
+
+     .banner-descrip h4 {
+         font-size: 26px;
+         text-align: center;
+     }
+
+     .banner-descrip h1 {
+         font-size: 50px;
+         text-align: center;
+         margin: 1rem 0rem;
+     }
+
+     .banner-descrip h6 {
+         font-size: 14px;
+         text-align: left;
+     }
+
+     .btn-one,
+     .btn-two,
+     .btn-three {
+         padding: 10px 20px;
+         font-size: 12px;
+     }
+
+     .banner-items img {
+         width: 80%;
+         margin: 3rem;
+         height: 450px;
+     }
+
+     /* Gamer Section */
+
+     .gamer-img img {
+         width: 100%;
+         margin-left: 5rem;
+         margin-top: 0;
+     }
+
+     .gamer-descrip {
+         width: 90%;
+         margin: 0 auto;
+         text-align: center;
+     }
+
+     .gamer-descrip h3 {
+         font-size: 35px;
+
+     }
+
+     .gamer-descrip p {
+         font-size: 15px;
+         font-weight: 400;
+         line-height: 22px;
+     }
+
+     .gamer-descrip h4 {
+         font-size: 22px;
+     }
+
+     /* Online Game Section */
+     .online-games-section {
+         width: 80%;
+         margin: 0 auto;
+         margin-top: 1rem;
+     }
+
+     .online-games-descrip h3 {
+         font-size: 23px;
+     }
+
+     .online-games-descrip p {
+         font-size: 12px;
+         line-height: 20px;
+     }
+
+     .card img {
+         width: 100%;
+         margin: 1rem 0rem;
+     }
+
+     .card p {
+         font-weight: 400;
+         text-align: center;
+     }
+
+     /* Play One Section */
+     .play-descrip {
+         padding-top: 0;
+         padding-left: 0;
+         text-align: center;
+     }
+
+     .play-descrip h2 {
+         font-size: 25px;
+         line-height: 30px;
+         text-align: center;
+     }
+
+     .play-descrip p {
+         line-height: 20px;
+         margin: 2rem 0rem
+     }
+
+     .paly-img {
+         width: 80%;
+         margin: 0 auto;
+     }
+
+     .play-main-img {
+         width: 80%;
+         left: 0;
+         margin-left: 4.5rem;
+     }
+
+     .play-sec-img {
+         position: relative;
+         width: 40%;
+         top: -8rem;
+         left: 0rem;
+     }
+
+     /* Career Sectin */
+
+     .careers-section {
+         margin-top: -5rem;
+     }
+
+     .careers-descrip h3 {
+         margin-top: 3rem;
+         font-size: 35px;
+     }
+
+     .careers-descrip p {
+         font-size: 9px;
+         line-height: 12px;
+     }
+
+     .list-one ul,
+     .list-two ul {
+         font-size: 8px;
+     }
+
+     .btn-four {
+         padding: 8px 20px;
+         font-size: 10px;
+         margin-top: 10px;
+     }
+
+     /* Game section */
+     .game-field {
+         gap: 15px;
+         display: grid;
+         grid-template-columns: repeat(3, 3fr);
+     }
+
+     .game-imgs {
+         width: 105px;
+         height: 25px;
+     }
+
+     .game-imgs img {
+         width: 20px;
+         height: 20px;
+     }
+
+     .game-imgs p {
+         font-size: 8px;
+     }
+ }

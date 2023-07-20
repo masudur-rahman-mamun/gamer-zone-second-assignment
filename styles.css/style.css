@@ -270,12 +270,12 @@
      margin: 0 auto;
  }
 
- .card {}
+ .card {
+     cursor: pointer;
+ }
 
  .card-img {
-     /* width: 245px; */
      width: 92%;
-     /* margin: 3px; */
  }
 
  .online-games-img p {
